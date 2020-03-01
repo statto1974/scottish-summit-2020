@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demo-7-client-side-solution",
+    "id": "dc2ee117-ef52-4a97-b13a-a9c070df6994",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true, // will not be present if not choosen during setup
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/demo-7.sppkg"
+  }
+}

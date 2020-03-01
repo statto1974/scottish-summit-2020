@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-you-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/helloYou/HelloYouCommandSet.js",
+          "manifest": "./src/extensions/helloYou/HelloYouCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloYouCommandSetStrings": "lib/extensions/helloYou/loc/{locale}.js"
+  }
+}

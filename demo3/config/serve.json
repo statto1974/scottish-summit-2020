@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://your-tenant.sharepoint.com/sites/demo3/Lists/Coffees/AllItems.aspx",
+      "customActions": {
+        "33c40f3d-fa6b-469e-82d6-5ba402578d88": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "enviromation": {
+      "pageUrl": "https://your-tenant.sharepoint.com/sites/demo3/Lists/Coffees/AllItems.aspx",
+      "customActions": {
+        "33c40f3d-fa6b-469e-82d6-5ba402578d88": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

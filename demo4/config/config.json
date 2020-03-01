@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cake-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/cake/CakeCommandSet.js",
+          "manifest": "./src/extensions/cake/CakeCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CakeCommandSetStrings": "lib/extensions/cake/loc/{locale}.js"
+  }
+}

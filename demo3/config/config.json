@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "enviromation-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/enviromation/EnviromationCommandSet.js",
+          "manifest": "./src/extensions/enviromation/EnviromationCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EnviromationCommandSetStrings": "lib/extensions/enviromation/loc/{locale}.js"
+  }
+}

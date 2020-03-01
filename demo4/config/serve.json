@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://your-tenant.sharepoint.com/sites/Demo4/Lists/Cakes/AllItems.aspx",
+      "customActions": {
+        "c133c54b-5d0b-460a-86db-a84f4a213bcd": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "cake": {
+      "pageUrl": "https://your-tenant.sharepoint.com/sites/Demo4/Lists/Cakes/AllItems.aspx",
+      "customActions": {
+        "c133c54b-5d0b-460a-86db-a84f4a213bcd": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

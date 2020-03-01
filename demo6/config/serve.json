@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://your-tenant.sharepoint.com/sites/Demo6/Lists/Shifts/AllItems.aspx",
+      "customActions": {
+        "9470e99b-bf7b-4e2b-9689-7cc5abebcf32": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "bombDog": {
+      "pageUrl": "https://your-tenant.sharepoint.com/sites/Demo6/Lists/Shifts/AllItems.aspx",
+      "customActions": {
+        "9470e99b-bf7b-4e2b-9689-7cc5abebcf32": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

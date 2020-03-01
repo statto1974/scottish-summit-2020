@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SmellMyCheese"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ListTemplateId="100"
+        Properties="{&quot;sampleTextOne&quot;:&quot;Test&quot;, &quot;sampleTextTwo&quot;:&quot;Cheddar&quot;}"
+        ComponentId="55ba8541-ae31-459f-bce2-1ac96f2d676a" />
+</Elements>

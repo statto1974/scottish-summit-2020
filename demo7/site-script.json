@@ -1,0 +1,28 @@
+{
+  "$schema": "schema.json",
+  "actions": [
+    {
+      "verb": "createSPList",
+      "listName": "Cheeses",
+      "templateType": 100,
+      "subactions": [
+          {
+            "verb": "SetDescription",
+            "description": "The finest cheeses"
+          }
+      ]
+    },
+    {
+      "verb": "associateExtension",
+      "title": "SmellMyCheese",
+      "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+      "clientSideComponentId": "55ba8541-ae31-459f-bce2-1ac96f2d676a",
+      "clientSideComponentProperties": "{\"sampleTextOne\":\"Paneer\", \"sampleTextTwo\":\"Camembert\"}",
+      "registrationId" : "100",
+      "registrationType" : "List",
+      "scope": "Web"
+    }
+  ],
+  "bindata": { },
+  "version": 1
+}

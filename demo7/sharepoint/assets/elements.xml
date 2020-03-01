@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="SmellMyCheese"
+        RegistrationId="100"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="55ba8541-ae31-459f-bce2-1ac96f2d676a"
+        ClientSideComponentProperties="{&quot;sampleTextOne&quot;:&quot;Brie&quot;, &quot;sampleTextTwo&quot;:&quot;Cheddar&quot;}">
+    </CustomAction>
+</Elements>
